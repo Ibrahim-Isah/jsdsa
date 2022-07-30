@@ -1,0 +1,19 @@
+--- Constants do NOT Matter ---
+O(12) -> O(1)
+O(1212) -> O(1)
+O(2n) -> O(n)
+O(n/2) -> O(n)
+O(13n^2) -> O(n ^ 2)
+
+--- Smaller Terms do NOT Matter ---
+O(n^2 + 13n + 8) -> O(n^2)
+
+
+--- Why we simplify Big O ---
+Big O only cares about worst case scenarios and general trends as N approceaches infinity
+
+--- New Terms ---
+
+O(1) -> Constant Time 
+O(n) -> Linear Time
+O(n ^ 2) -> Quadratic Time
